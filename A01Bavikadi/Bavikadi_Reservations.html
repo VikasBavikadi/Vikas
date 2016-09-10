@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hello Bear cats!!!!</title>
+<link type='text/css' rel="stylesheet" href="Bavikadi_Vikas.css"/>
+</head>
+<body>
+<div style='color:orange;padding-left:20em'>
+    <h1> Reserve Your Table </h1>
+</div>
+   <header style ='padding-left:10em'>
+<nav>
+  <ul>
+    <li><a href="Bavikadi_Vikas.html">Home</a></li>
+    <li><a class="active" href="Bavikadi_Reservations.html">Reservations</a></li>
+    <li><a href="Bavikadi_Contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<div id="details">
+<form method="POST" >
+   <p> First name:  &nbsp;&nbsp;&nbsp;
+<input type="text" name="firstname" placeholder="Enter your first name" required>
+<br>
+Last name:  &nbsp;&nbsp;&nbsp;
+<input type="text" name="lastname" placeholder="Enter your last name" required><br>
+Gender:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female<br>
+Capacity: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <select name="members">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option></select><br>
+ Select Day: &nbsp;&nbsp;&nbsp; <select name="Day">
+                <option value="Today">Today</option>
+                <option value="Tommorrow">Tommorrow</option>
+                
+        </select><br>
+        </p>
+<div style='padding-left:170px;'>
+<input type="button" value="Submit" onclick="alert('Congratulations!!! your table has been reserved')">
+</div>
+</form>
+</div>
+
+</body>
+</html>
